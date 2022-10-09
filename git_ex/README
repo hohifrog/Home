@@ -1,40 +1,55 @@
 # Git Basics (commit, diff, branches)
 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
-15.
-16.
+1. Command: echo "1" >> abc.txt
+2. The color is red, Command: git status
+3. ????
+4. The color is green, First command: git add  abc.txt, Second command: git status. Third command: git commit -m "add abc.txt"
+5. Command: echo "2" >> abc.txt
+6. The color is red, Command: git status, Reason: Changes not staged for commit as in step 2
+7. Command: git diff
+8. Reason: will only show changes to files in the "staged" area, Command: git diff --staged
+9. Reason: unknown path not exist on working tree, Command: git diff stage2
+10.Command: git add abc.txt
+11.Output:
+diff --git a/git_ex/README b/git_ex/README Explanation: files which are being compared
+index 2470921..6dd17f3 100644 Explanation: file metadata
+--- a/git_ex/README Explanation: first file will be represented with a — sign
++++ b/git_ex/README Explanation: the second file will be represented with a + sign
+@@ -1,15 +1,15 @@ Explanation: header
+-1. Explanation: changes in the chunk
+-2. Explanation: changes in the chunk
+12. Command: git diff --staged
+13. Command: echo "3" >> abc.txt
+14. Answer: no it will not print the same, Command: git diff --Staged  will show changes only on staged area, Command: git diff main, will show changes on main
+15. First abc.txt file: changes to be committed, Second abc.txt file: changes not staged for commit
+16. Command: git reset
 
 # Resolve conflicts
 
-1.
-2.
-3.
-4.
-5.
-   1.
-   2.
-   3.
-   4.
-   5.
-6.
+1. Command: git branch, Output: bugfix/fix_readme_typo
+  bugfix/open_kibana_port
+  dev
+  feature/data_retention_policy
+  feature/elasticsearch_helm_chart
+  feature/lambda_migration
+  feature/upgrade_angular_version
+  feature/version1
+  feature/version2
+2. Command: git checkout feature/lambda_migration
+3. Done from GUI
+4. Done from GUI
+5. Done from GUI
+   1. Done from GUI
+   2. Done from GUI
+   3. Done from GUI
+   4. Done from GUI
+   5. Done from GUI
+6. Answer: those commits was from changes done from main not committed yet
 
 # Cherry picking
 
-1.
-2.
+1. Command: git checkout feature/lambda_migration2
+2. Done from GUI
 3.
     1.
     2.
