@@ -60,7 +60,7 @@ index 2470921..6dd17f3 100644 Explanation: file metadata
 # Changes in working tree and switch branches
 
 1.
-2.
+2. 
 3.
 4.
 5.
@@ -68,13 +68,13 @@ index 2470921..6dd17f3 100644 Explanation: file metadata
 
 # Reset
 
-1.
-2.
-   1.
-   2.
-   3.
-   4.
-3.
+1. Command: git checkout reset_question
+2. Done
+   1. Done
+   2. Done
+   3. Done
+   4. Done
+3. Answer: The HEAD in Git is a file that references the current branch you are currently on
 
 
 # Working with GitHub
