@@ -50,21 +50,21 @@ index 2470921..6dd17f3 100644 Explanation: file metadata
 
 1. Command: git checkout feature/lambda_migration2
 2. Done from GUI
-3.
-    1.
-    2.
-4.
-5.
+3. Done from GUI
+    1. Done from GUI
+    2. Done from GUI
+4. Need help
+5. Need help
 
 
 # Changes in working tree and switch branches
 
-1.
-2. 
-3.
-4.
-5.
-6.
+1. Command: git checkout feature/lambda_migration2
+2. Command: echo "Good Practice" >> take.txt
+3. Problem: Didn't get a error
+4. Command: git checkout feature/lambda_migration2
+5. Yes
+6. ????
 
 # Reset
 
@@ -79,7 +79,7 @@ index 2470921..6dd17f3 100644 Explanation: file metadata
 
 # Working with GitHub
 
-1.
-2.
-3.
-4.
+1. Done
+2. Command: git remote add master  https://github.com/hohifrog/git_practice.git
+3. Command: git push -u origin main dev
+4. Path to repo: https://github.com/hohifrog/git_practice.git
